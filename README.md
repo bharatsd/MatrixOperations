@@ -126,6 +126,8 @@ test_d3.printMatrixCSV(1,string); //prints to csv file with a unique name made o
 
 ```
 
-- Use `MatrixOperations.cpp` to run the test cases for multiplication and transpose of two matrices, observe test1() in main to see some helper functions in action, and compile it like this: `g++ -pipe -O2 -std=c++11 MatrixOperations.cpp ` and complete by typing `./a.out` in the console
+- Use `MatrixOperations.cpp` to run the test cases for multiplication and transpose of two matrices, observe test1() in main to see some helper functions in action, and compile it like this: `g++ -pipe -O2 -std=c++11 MatrixOperations.cpp ` and complete by typing `./a.out` in the console.
+
+-You can set the range of the matrix sizes you want to test the random generator test2 method in main by changing its arguements by giving it desired range
 
 
